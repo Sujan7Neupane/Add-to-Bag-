@@ -1,1 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Parkinsans", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 
+.border {
+  border: 1px solid black;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.hero-main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  padding: 1rem;
+}
+.image-mid-container img {
+  width: 100%;
+  height: 500px;
+}
+.product-box-wrapper {
+  border: 1px double blue;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.product-box-wrapper img {
+  width: 50px;
+  height: 60px;
+}
+
+.details-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price-dis-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.details-sec strong {
+  text-transform: uppercase;
+  color: rgb(71, 176, 228);
+}
+
+.details-sec .main-title {
+  font-size: 2rem;
+}
+
+.m30 {
+  margin-bottom: 30px;
+}
+
+.details-sec .desc {
+  font-size: 1rem;
+}
+
+.price-dis-wrapper .price-title {
+  font-size: 2rem;
+  color: rgb(89, 89, 89);
+}
+
+.price-dis-wrapper span {
+  background-color: rgb(171, 204, 253);
+  padding: 3px;
+  color: rgb(78, 155, 248);
+  border-radius: 3px;
+}
+
+.price-discount {
+  color: rgb(137, 137, 137);
+  text-decoration: line-through;
+}
+
+.choose-size-sec .title {
+  text-transform: uppercase;
+}
+
+.size-sec {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.size-sec a {
+  text-decoration: none;
+  color: #000000;
+  /* background-color: #000; */
+  padding: 0.5rem;
+  width: 50px;
+}
+.size-sec a:hover {
+  background-color: #000;
+  color: aliceblue;
+}
+
+.def-button {
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(26, 118, 255);
+  border: none;
+  border-radius: 3px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.def-button:hover {
+  background-color: rgb(65, 141, 255);
+}
+
+.product-image-sec .product-boxes {
+  cursor: pointer;
+}
+
+.product-image-sec .product-boxes img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image-sec .product-boxes img:hover {
+  transform: scale(1.2);
+}
